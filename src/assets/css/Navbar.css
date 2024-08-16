@@ -1,0 +1,142 @@
+/* Navbar.css */
+
+/* General navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  position: relative;
+  z-index: 10; /* Ensure navbar is above other content */
+}
+
+/* Logo styles */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar-logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar-logo strong {
+  font-size: 1.5em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Link styles */
+.navbar-links {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-links ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+}
+
+.navbar-links li {
+  margin-left: 20px;
+  list-style: none;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+
+
+/* Menu toggle button styles */
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-icon {
+  font-size: 1.5em;
+  color: white;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .menu-icon {
+    font-size: 2em;
+    
+  }
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 30%;
+    background-color: #85b7ec;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    transition: all 5s ease;
+  }
+
+  .navbar-links.open {
+    display: flex;
+  }
+
+  .navbar-links ul {
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .navbar-links li {
+    margin: 1px;
+    text-align: center;
+  }
+  
+.navbar-links a {
+  
+  font-size: 1em;
+  transition: color 0.5s ease;
+}
+
+  .menu-toggle {
+    display: block;
+  }
+}
+@media (max-width: 480px) {
+  .navbar-links {
+    width: 25%;
+    top: 40px;
+    right: 0;
+    transition: all 5s ease;
+  }
+
+ 
+  .navbar-links a {
+  
+    font-size: 0.7em;
+    transition: color 0.5s ease;
+  }
+  
+  .navbar-links li {
+    margin: 0.5px;
+    text-align: center;
+    
+  }
+
+  .menu-toggle {
+    display: block;
+    font-size: 0.7em;
+  }
+  
+  
+}

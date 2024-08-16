@@ -1,0 +1,86 @@
+/* src/assets/css/AboutUs.css */
+
+.about-us-container {
+    background-image: url('C:\Users\Sumera Kazmi\Documents\GitHub\login\src\assets\image\bg2.jpg'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: hsl(204, 5%, 22%);
+  }
+
+  
+  /* AboutUs.css */
+.about-us-container {
+  background-color: #f8f9fa; /* Light background for good contrast */
+  padding: 5px;
+  text-align: left;
+  color: #080808; /* Darker text color for readability */
+}
+
+.about-us-header {
+  position: relative;
+  text-align: center;
+  color: rgb(36, 33, 33);
+}
+
+.about-us-image {
+  width: 100%;
+  opacity: 0.8; /* Slightly dim the image for better text visibility */
+  filter: brightness(70%);
+  height: 550px;
+}
+
+.about-us-header h1 {
+  margin-bottom: 5px;
+  text-align: right;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: #007bff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  
+  
+  /*
+   Text shadow for contrast */
+}
+
+.about-us-content {
+
+ 
+  font-size: 1.1rem;
+  line-height: 1.5;
+  max-width: 900px;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .about-us-header h1 {
+    font-size: 3rem;
+  }
+
+  .about-us-image {
+    height: 300px;
+  }
+
+  .about-us-content {
+    padding: 5px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-us-header h1 {
+    font-size: 2rem;
+    margin-bottom: 1px;
+  }
+
+  .about-us-image {
+    height: 200px;
+  }
+
+  .about-us-content {
+    font-size: 1rem;
+    padding: 5px;
+  }
+}
+
+

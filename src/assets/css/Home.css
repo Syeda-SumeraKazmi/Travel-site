@@ -1,0 +1,179 @@
+/* General styles for the home page */
+
+.tours-section slide-in-section h1 {
+  text-decoration: solid;
+  color: #204b75; 
+}
+
+/* Home.css */
+.home-container {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.image-slider {
+  height: 600px; /* Adjust based on your design */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section {
+  color: rgb(243, 245, 247); 
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-section h1 {
+  font-size: 2.5em;
+}
+
+.hero-section h3 {
+  font-size: 1.5em;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Other styles */
+
+.tours-section {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+  color: #dbdfe4;
+  text-align: center;
+}
+
+.tours-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.tour-box {
+  width: 300px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.tour-box img {
+  height: 200px;
+  display: flex;
+  width: 100%;
+}
+
+.tour-box h3 {
+  margin: 10px;
+  font-size: 1rem;
+  color: #007bff; 
+}
+
+.tour-box p {
+  margin: 10px;
+  color: #161515;
+}
+
+.slide-in-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.slide-in-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.tours-section {
+  padding: 40px 20px;
+  background-image: url('C:\Users\Sumera Kazmi\Documents\GitHub\login\src\assets\image\t3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Media Queries */
+
+/* Small devices (tablets, 768px and down) */
+@media (max-width: 768px) {
+  .image-slider {
+    height: 700px;
+  }
+
+  .hero-section h1 {
+    font-size: 2em;
+  }
+  .tour-box img {
+    height: 200px;
+    display: flex;
+    width: 100%;
+  }
+  .hero-section h3 {
+    font-size: 1.2em;
+  }
+
+  .btn-primary {
+    font-size: 0.9em;
+    padding: 8px 16px;
+  }
+
+  .tour-box {
+    width: 60%;
+    margin: 30px 0;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 480px) {
+  .image-slider {
+    height: 500px;
+  }
+  .hero-section {
+    padding: 10px;
+  }
+
+  .hero-section h1 {
+    font-size: 1.8em;
+  }
+
+  .hero-section h3 {
+    font-size: 1em;
+  }
+
+  .btn-primary {
+    font-size: 0.8em;
+    padding: 6px 12px;
+  }
+  .tour-box img {
+    height: 150px;
+    display: flex;
+    width: 100%;
+  }
+
+  .tour-box {
+    width: 70%;
+    margin: 25px 0;
+  }
+
+  .tour-box h3 {
+    font-size: 0.9rem;
+  }
+}
