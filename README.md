@@ -1,3 +1,5 @@
+Login Page
+![image](https://github.com/user-attachments/assets/50e0272b-b1ca-4e3f-bc73-a84a2b46f466)
 Home page with trasitions of images after 5sec
 ![image](https://github.com/user-attachments/assets/509b9cc1-c4ad-424d-8fc8-fe05ee845794)
 ![image](https://github.com/user-attachments/assets/42207834-825e-4598-bab0-71b919e1eebe)
@@ -15,6 +17,7 @@ Contact US Page
 ![image](https://github.com/user-attachments/assets/03d1f08f-2e85-4a8a-b954-17823885a4d3)
 Responsiveness:
 
+![image](https://github.com/user-attachments/assets/6d6baa28-6dd8-4e44-8b39-0318e1aae9ce)
 ![image](https://github.com/user-attachments/assets/2daadf56-22db-4537-b12a-f20eb0da805b)
 ![image](https://github.com/user-attachments/assets/68f517e8-5aec-427a-9e22-1a33dffb72d1)
 ![image](https://github.com/user-attachments/assets/4ecfdd91-110a-4d20-9e4f-a808f99824f5)
